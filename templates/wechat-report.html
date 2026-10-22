@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="referrer" content="no-referrer">
+<title>金融公众号监控 · 近 7 天</title>
+<style>
+:root{--ink:#172b29;--muted:#61716b;--line:#dfe5df;--paper:#f4f5ef;--white:#fff;--green:#176c50;--soft:#e5efe8;--gold:#d2b887;--dark:#102f2c;font-family:Inter,"Segoe UI","Microsoft YaHei",sans-serif;color:var(--ink);background:var(--paper);font-size:14px;font-synthesis:none}
+*{box-sizing:border-box}body{margin:0}button,input,select{font:inherit}button,a,input,select{-webkit-tap-highlight-color:transparent}button{cursor:pointer}button:disabled{cursor:default;opacity:.4}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #ba8840;outline-offset:3px}button,input,select{border-radius:7px}a{color:inherit}header{background:var(--dark);color:#fff;padding:25px max(28px,calc((100vw - 1460px)/2));border-bottom:3px solid var(--gold)}.masthead{display:flex;justify-content:space-between;align-items:center;gap:24px}.brand{font-size:12px;letter-spacing:2.4px;color:#bed0c6;font-weight:600}.brand:before{content:"";display:inline-block;width:9px;height:9px;margin-right:9px;background:var(--gold)}.edition{font-size:11px;letter-spacing:1px;color:#c9d7cf}.headline{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-top:24px}.headline h1{font-size:31px;letter-spacing:1px;font-weight:600;margin:0 0 10px}.headline p{margin:0;color:#c1d1c8;font-size:13px;line-height:1.8}.range{font-size:17px;font-variant-numeric:tabular-nums;white-space:nowrap;color:#f5f2e7;letter-spacing:.5px}.range-label{font-size:11px;color:#bed0c6;margin-bottom:9px;text-align:right}.shell{max-width:1516px;padding:27px 28px 36px;margin:0 auto}.overview{display:grid;grid-template-columns:repeat(3,1fr);gap:0;background:#fff;border:1px solid var(--line);border-radius:10px;margin-bottom:23px}.stat{padding:17px 24px;display:flex;align-items:baseline;gap:12px}.stat+.stat{border-left:1px solid var(--line)}.stat strong{font-size:28px;font-weight:600;font-variant-numeric:tabular-nums;letter-spacing:-.8px}.stat span{color:var(--muted);font-size:12px}.layout{display:grid;grid-template-columns:205px minmax(0,1fr);gap:24px;align-items:start}.sidebar{background:white;border:1px solid var(--line);border-radius:10px;overflow:hidden}.side-heading{padding:17px 17px 12px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #eef0eb}.side-heading h2{font-size:13px;margin:0;font-weight:600}.side-heading span{font-size:11px;color:var(--muted)}.keyword-list{padding:9px}.keyword{width:100%;border:0;background:transparent;text-align:left;padding:10px 11px;display:flex;align-items:center;justify-content:space-between;gap:8px;line-height:1.35;color:var(--ink);margin:2px 0}.keyword:hover{background:#f3f6f0}.keyword[aria-pressed=true]{background:var(--dark);color:white}.keyword .count{font-size:11px;font-variant-numeric:tabular-nums;opacity:.7}.keyword .keyword-name{min-width:0;overflow-wrap:anywhere}.sidebar-note{padding:13px 17px;color:var(--muted);font-size:11px;line-height:1.8;border-top:1px solid var(--line)}main{min-width:0}.main-title{display:flex;align-items:center;justify-content:space-between;gap:15px;margin:0 0 16px}.main-title h2{font-size:20px;font-weight:600;margin:0}.main-title p{color:var(--muted);font-size:12px;margin:7px 0 0}.export{border:1px solid var(--green);background:var(--green);color:white;padding:10px 14px;white-space:nowrap;font-weight:600}.export:hover{background:#10573f}.filters{display:grid;grid-template-columns:minmax(180px,1fr) minmax(130px,.65fr) 156px 106px auto;gap:10px;align-items:end;padding:15px;background:white;border:1px solid var(--line);border-radius:9px;margin-bottom:12px}.field{display:flex;flex-direction:column;gap:7px;min-width:0}.field label{font-size:11px;color:var(--muted)}input,select{width:100%;min-width:0;padding:10px 10px;border:1px solid #d7dfd7;color:var(--ink);background:#fff;line-height:20px;height:41px}input::placeholder{color:#8b978f;font-size:12px}.reset{border:0;background:#eef2eb;padding:10px 12px;height:41px;color:var(--muted)}.results-line{display:flex;align-items:center;justify-content:space-between;gap:16px;font-size:12px;padding:4px 2px 13px;color:var(--muted);line-height:1.7}.results-line strong{color:var(--ink);font-weight:600}.table-box{background:#fff;border:1px solid var(--line);border-radius:9px;overflow:hidden}.table-scroll{overflow-x:auto}table{width:100%;border-collapse:collapse;text-align:left;table-layout:fixed}thead{background:#f0f3ec}th{font-size:11px;font-weight:500;color:#61746a;padding:14px 10px;border-bottom:1px solid var(--line);white-space:nowrap}td{padding:19px 10px;border-bottom:1px solid #e8ece6;vertical-align:top;font-size:12px;line-height:1.65}tr:last-child td{border-bottom:0}tbody tr:hover{background:#fbfcf8}th:first-child,td:first-child{padding-left:20px}th:last-child,td:last-child{padding-right:17px}.number{font-variant-numeric:tabular-nums;white-space:nowrap}.rank{color:#8a978e;font-size:11px}.article-link{font-size:14px;line-height:1.7;font-weight:600;text-decoration:none;display:block;overflow-wrap:anywhere}.article-link:hover{color:var(--green);text-decoration:underline;text-underline-offset:4px}.author{font-size:12px;color:var(--muted);margin-top:7px;overflow-wrap:anywhere}.tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:10px}.tag{background:#eef3ec;color:#486753;padding:2px 6px;font-size:10px;border-radius:4px;line-height:1.5}.tag.active{background:#dae9dc;color:#20593a}.read-count{font-weight:600;font-size:14px}.subscore{color:#6f8074;font-size:11px}.score{display:inline-block;min-width:48px;padding:4px 6px;text-align:center;border-radius:5px;background:#eaf1e7;color:#1e5d41;font-size:14px;font-weight:600}.date{font-size:11px;white-space:nowrap;color:#758277}.pager{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 18px;border-top:1px solid var(--line);background:#fbfcf8}.pager-label{font-size:12px;color:var(--muted)}.page-controls{display:flex;align-items:center;gap:6px}.page-button{background:#fff;border:1px solid var(--line);padding:7px 10px;color:var(--ink);font-size:12px}.page-button:hover:not(:disabled){border-color:var(--green);background:var(--soft)}#pageSelect{height:32px;max-width:100px;padding:4px 6px;font-size:12px}.empty{padding:66px 24px;text-align:center}.empty strong{font-size:17px;display:block;font-weight:500}.empty p{font-size:13px;color:var(--muted);line-height:1.8}.note{font-size:11px;color:var(--muted);line-height:1.9;margin-top:17px}.note strong{font-weight:600;color:#475f51}.status-banner{padding:11px 14px;background:#fff1d5;border:1px solid #dfc99f;border-radius:7px;color:#745b2e;line-height:1.8;font-size:12px;margin-bottom:12px}details{margin-top:12px;font-size:11px;color:var(--muted)}summary{cursor:pointer;font-size:12px;color:#486551;line-height:1.8}.coverage{width:100%;margin-top:9px;border:1px solid var(--line);border-radius:6px;background:#fff}.coverage th,.coverage td{padding:9px 12px;font-size:11px}.coverage th:first-child,.coverage td:first-child{padding-left:12px}.footer{max-width:1460px;border-top:1px solid #d8e0d6;padding-top:18px;margin-top:30px;display:flex;justify-content:space-between;gap:16px;color:#77877b;font-size:10px;letter-spacing:.5px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}[hidden]{display:none!important}
+@media(min-width:1600px){.shell{padding-left:0;padding-right:0}}
+@media(max-width:1200px){.layout{grid-template-columns:176px minmax(0,1fr);gap:18px}.filters{grid-template-columns:minmax(180px,1fr) minmax(120px,.7fr) 145px}.filters .page-size{grid-column:1;max-width:130px}.reset{justify-self:start}.table-scroll table{min-width:790px}.stat{padding:16px 20px}.stat strong{font-size:25px}}
+@media(max-width:800px){header{padding:20px}.shell{padding:20px}.headline{align-items:start;flex-direction:column;gap:17px}.headline h1{font-size:26px}.range-label{text-align:left;font-size:10px;margin-bottom:5px}.range{font-size:14px}.layout{grid-template-columns:1fr}.keyword-list{display:flex;flex-wrap:wrap;gap:5px}.keyword{width:auto;padding:9px 11px;border:1px solid #e1e7dd;margin:0;gap:10px}.side-heading{padding:13px}.sidebar-note{display:none}.overview{margin-bottom:18px}.stat{flex-direction:column;gap:5px;padding:14px}.stat strong{font-size:24px}.stat span{font-size:10px}.filters{grid-template-columns:1fr 1fr}.filters .page-size{grid-column:auto;max-width:none}.reset{justify-self:stretch}.main-title{align-items:start}.main-title h2{font-size:19px}.export{padding:10px;font-size:12px}.pager{flex-direction:column;align-items:stretch;gap:13px}.page-controls{justify-content:center}.results-line{align-items:start;flex-direction:column;gap:2px}.edition{font-size:9px}.brand{font-size:10px;letter-spacing:1.5px}.footer{flex-direction:column;gap:7px}}
+@media(max-width:420px){header{padding:18px 14px}.shell{padding:16px 12px}.main-title{flex-direction:column}.export{align-self:stretch}.filters{padding:12px}.filters .field:first-child{grid-column:1/-1}.page-controls{gap:4px}.page-button{padding:7px 8px}.overview .stat{padding:12px 10px}.stat strong{font-size:23px}.headline p{font-size:12px}.brand{letter-spacing:.7px}}
+.page-button{white-space:nowrap;flex-shrink:0}#pageSelect{width:94px;flex:0 0 94px}.mobile-table-hint{display:none}
+@media(max-width:800px){.mobile-table-hint{display:block;font-size:11px;color:var(--muted);margin-bottom:9px}}
+@media(max-width:420px){.edition{display:none}.brand{white-space:nowrap;font-size:9px;letter-spacing:.4px}}
+@media print{header{background:white!important;color:black}.brand,.headline p,.range-label,.range{color:black}.sidebar,.filters,.export,.pager{display:none}.layout{display:block}.table-scroll{overflow:visible}.table-scroll table{min-width:0}.shell{padding:0}.overview{break-inside:avoid}.table-box{border:0}tr{break-inside:avoid}.note{color:black}.mobile-table-hint{display:none}}
+</style>
+</head>
+<body>
+<header>
+  <div class="masthead"><div class="brand">MARKET INTELLIGENCE / 市场信息监控</div><div class="edition">WECHAT RESEARCH · 近 7 天</div></div>
+  <div class="headline"><div><h1>金融公众号监控</h1><p>助贷与消费金融 · 平台动态 · 银行与监管 · 贷后与催收</p></div><div><div class="range-label">文章发布时间 · 北京时间</div><div class="range" id="dateRange"></div></div></div>
+</header>
+<div class="shell">
+  <section class="overview" aria-label="查询概览"><div class="stat"><strong id="articleCount">—</strong><span>去重文章</span></div><div class="stat"><strong id="authorCount">—</strong><span>涉及公众号</span></div><div class="stat"><strong id="keywordCount">15</strong><span>查询关键词</span></div></section>
+  <div class="layout">
+    <aside class="sidebar" aria-label="按查询关键词筛选"><div class="side-heading"><h2>关键词</h2><span>点击切换</span></div><nav class="keyword-list" id="keywords" aria-label="关键词筛选"></nav><div class="sidebar-note">同一篇文章可命中多个关键词。全部结果已合并去重，切换关键词可查看对应命中及评分。</div></aside>
+    <main>
+      <div class="main-title"><div><h2 id="sectionTitle">全部文章</h2><p id="sectionSubtitle">15 个关键词的查询结果，合并去重展示</p></div><button type="button" class="export" id="exportCsv">导出筛选结果 CSV</button></div>
+      <div class="status-banner" id="statusBanner" role="status" hidden></div>
+      <section class="filters" aria-label="文章搜索与排序">
+        <div class="field"><label for="searchTitle">搜索标题或公众号</label><input id="searchTitle" type="search" placeholder="输入标题关键词或公众号名称" autocomplete="off"></div>
+        <div class="field"><label for="searchAuthor">仅筛选公众号</label><input id="searchAuthor" type="search" placeholder="全部公众号" autocomplete="off"></div>
+        <div class="field"><label for="sortBy">排序方式</label><select id="sortBy"><option value="score-desc">综合评分 · 高到低</option><option value="reads-desc">阅读数 · 高到低</option><option value="date-desc">发布时间 · 新到旧</option><option value="reads-asc">阅读数 · 低到高</option><option value="score-asc">综合评分 · 低到高</option></select></div>
+        <div class="field page-size"><label for="pageSize">每页条数</label><select id="pageSize"><option value="10">10 篇 / 页</option><option value="20">20 篇 / 页</option><option value="50">50 篇 / 页</option></select></div>
+        <button type="button" class="reset" id="reset">重置</button>
+      </section>
+      <div class="results-line"><span id="resultsLabel" role="status" aria-live="polite"></span><span id="scoreContext">全部视图：综合分取各命中关键词中的最高值</span></div>
+      <span class="mobile-table-hint">表格可左右滑动，查看阅读数、日期及评分。</span>
+      <section class="table-box" aria-label="公众号文章列表">
+        <div class="table-scroll"><table id="articleTable"><caption class="sr-only">公众号文章、阅读量、发布日期和评分。标题链接可打开原文。</caption><colgroup><col style="width:40px"><col><col style="width:75px"><col style="width:75px"><col style="width:52px"><col style="width:48px"><col style="width:48px"><col style="width:72px"></colgroup><thead><tr><th scope="col">序号</th><th scope="col">文章标题 / 公众号 / 命中关键词</th><th scope="col">阅读数</th><th scope="col">发布时间</th><th scope="col">相关性</th><th scope="col">热度</th><th scope="col">时效</th><th scope="col">综合分</th></tr></thead><tbody id="articleRows"></tbody></table></div>
+        <div class="empty" id="empty" hidden><strong id="emptyTitle">没有符合当前筛选的文章</strong><p id="emptyDescription">可修改搜索内容，或重置筛选条件。</p></div>
+        <div class="pager"><span class="pager-label" id="pageLabel"></span><div class="page-controls"><button type="button" class="page-button" id="firstPage" aria-label="第一页">首页</button><button type="button" class="page-button" id="prevPage" aria-label="上一页">上一页</button><label for="pageSelect" class="sr-only">跳转页码</label><select id="pageSelect"></select><button type="button" class="page-button" id="nextPage" aria-label="下一页">下一页</button><button type="button" class="page-button" id="lastPage" aria-label="最后一页">末页</button></div></div>
+      </section>
+      <div class="note"><strong>数据口径</strong> · 来源：红狐 API / wechat-search。收录阅读数 5000+ 的文章，每日早上 7 点更新昨日数据；互动数据截止入库时间，并非实时数据。<br><strong>评分口径</strong> · 相关性 10 分 + 热度 3 分 + 时效 2 分，共 15 分。全部视图使用文章最高的关键词匹配分；切换关键词后使用该关键词对应的评分。<br><strong>报告范围</strong> · 仅保留指定 7 天内的匹配文章；未自动扩展时间或关键词，未将无关热门推荐混入结果。关键词匹配可能包含同名或宽泛结果。本报告内的搜索与筛选均基于已保存数据，不会发起新查询。CSV 导出当前筛选下的全部文章，不限当前页。</div>
+      <details><summary>查看每个关键词的查询覆盖情况</summary><div class="table-scroll"><table class="coverage"><thead><tr><th>关键词</th><th>接口总条数</th><th>报告内去重文章</th><th>查询状态</th></tr></thead><tbody id="coverageRows"></tbody></table></div><p id="coverageNote"></p></details>
+    </main>
+  </div>
+  <footer class="footer"><span>金融公众号监控 · 本地交互报告 · 不含 API 密钥</span><span id="generatedAt"></span></footer>
+</div>
+<noscript><p style="padding:24px">请在支持 JavaScript 的浏览器中打开本报告，以使用搜索、分页和导出。</p></noscript>
+<script type="application/json" id="report-data">__REPORT_DATA__</script>
+<script>
+'use strict';
+const report = JSON.parse(document.getElementById('report-data').textContent);
+const allArticles = report.articles;
+const meta = report.meta;
+const $ = id => document.getElementById(id);
+const state = {keyword:'',search:'',author:'',sort:'score-desc',page:1,size:10};
+let filtered = [];
+let pageCount = 1;
+const collator = new Intl.Collator('zh-CN');
+const fmt = value => Number(value || 0).toLocaleString('zh-CN');
+const scoreText = value => Number(value || 0).toFixed(2);
+const numText = value => value >= 100000 ? (value === 100001 ? '10w+' : (value / 10000).toFixed(1) + 'w') : value >= 10000 ? (value / 10000).toFixed(1) + 'w' : fmt(value);
+const create = (tag, className, content) => {const el = document.createElement(tag);if(className)el.className=className;if(content!==undefined)el.textContent=content;return el;};
+const normalize = text => String(text || '').normalize('NFKC').toLocaleLowerCase().trim();
+function getScore(article){
+  if(state.keyword)return article.scoresByKeyword[state.keyword] || {};
+  return Object.values(article.scoresByKeyword).reduce((best,next)=>Number(next.totalScore || 0)>Number(best.totalScore || 0)?next:best,{totalScore:-1});
+}
+function queryInfo(keyword){return meta.queries.find(q=>q.keyword===keyword);}
+function safeArticleUrl(value){try{const u=new URL(value);return u.protocol==='https:' && u.hostname==='mp.weixin.qq.com' ? u.href : null;}catch{return null;}}
+function getFiltered(){
+  const search=normalize(state.search),author=normalize(state.author);
+  const rows=allArticles.filter(a=>(!state.keyword || a.keywords.includes(state.keyword)) && (!search || normalize(a.title+' '+a.author).includes(search)) && (!author || normalize(a.author).includes(author)));
+  rows.sort((a,b)=>{
+    let diff=0;
+    if(state.sort==='reads-desc')diff=b.clicksCount-a.clicksCount;
+    else if(state.sort==='reads-asc')diff=a.clicksCount-b.clicksCount;
+    else if(state.sort==='date-desc')diff=b.publicTime.localeCompare(a.publicTime);
+    else if(state.sort==='score-asc')diff=(getScore(a).totalScore||0)-(getScore(b).totalScore||0);
+    else diff=(getScore(b).totalScore||0)-(getScore(a).totalScore||0);
+    return diff || b.clicksCount-a.clicksCount || b.publicTime.localeCompare(a.publicTime) || collator.compare(a.title,b.title);
+  });
+  return rows;
+}
+function updateStatus(){
+  const q=state.keyword?queryInfo(state.keyword):null;
+  const incomplete=meta.queries.filter(x=>!x.complete);
+  let message='';
+  if(q && q.status!=='ok')message='“'+q.keyword+'”查询失败，不能视为没有匹配文章。'+(q.error||'');
+  else if(q && !q.complete)message='“'+q.keyword+'”接口报告 '+fmt(q.reportedTotal)+' 条，本次已保留 '+fmt(q.count)+' 篇。'+(q.error||'部分结果未能取回。');
+  else if(!q && incomplete.length)message=incomplete.map(x=>x.keyword).join('、')+' 的查询尚不完整。报告已保留全部成功返回的文章，具体条数见下方查询覆盖情况。';
+  $('statusBanner').textContent=message;$('statusBanner').hidden=!message;
+}
+function render(){
+  filtered=getFiltered();pageCount=Math.max(1,Math.ceil(filtered.length/state.size));state.page=Math.max(1,Math.min(state.page,pageCount));
+  const start=(state.page-1)*state.size,end=Math.min(start+state.size,filtered.length);
+  $('articleRows').replaceChildren();
+  filtered.slice(start,end).forEach((article,index)=>{
+    const score=getScore(article),tr=create('tr');
+    tr.append(create('td','rank number',String(start+index+1).padStart(2,'0')));
+    const detail=create('td','article-detail');const url=safeArticleUrl(article.url);
+    const title=create(url?'a':'span','article-link',article.title);
+    if(url){title.href=url;title.target='_blank';title.rel='noopener noreferrer';}
+    detail.append(title,create('div','author',article.author));
+    const tags=create('div','tags');article.keywords.forEach(keyword=>tags.append(create('span','tag'+(keyword===state.keyword?' active':''),keyword)));detail.append(tags);tr.append(detail);
+    const reads=create('td','number');const reading=create('span','read-count',numText(article.clicksCount));reading.title=fmt(article.clicksCount)+' 次阅读';reads.append(reading);tr.append(reads);
+    const date=create('td','date number');const time=create('time','',article.publicTime.slice(5,10));time.dateTime=article.publicTime.replace(' ','T')+'+08:00';time.title=article.publicTime+' 北京时间';date.append(time);tr.append(date);
+    for(const key of ['relevanceScore','popularityScore','recencyScore'])tr.append(create('td','number subscore',scoreText(score[key])));
+    const total=create('td','number');total.append(create('span','score',scoreText(score.totalScore)));tr.append(total);
+    $('articleRows').append(tr);
+  });
+  $('articleTable').hidden=filtered.length===0;$('empty').hidden=filtered.length!==0;
+  const info=state.keyword?queryInfo(state.keyword):null;
+  const noKeywordResults=info&&info.count===0&&!state.search&&!state.author;
+  $('emptyTitle').textContent=noKeywordResults?(info.status==='ok'?'近 7 天未返回“'+state.keyword+'”的匹配文章':'该关键词查询失败'):'没有符合当前筛选的文章';
+  $('emptyDescription').textContent=noKeywordResults?'保留原查询范围；未混入其他关键词或无关热门推荐。':'可修改搜索内容，或重置筛选条件。';
+  $('sectionTitle').textContent=state.keyword||'全部文章';
+  $('sectionSubtitle').textContent=state.keyword?'按“'+state.keyword+'”的接口匹配结果展示':meta.keywords.length+' 个关键词的查询结果，合并去重展示';
+  $('resultsLabel').replaceChildren(create('strong','',fmt(filtered.length)+' 篇文章'),document.createTextNode(filtered.length?' · 显示第 '+fmt(start+1)+'—'+fmt(end)+' 篇':' · 暂无可展示内容'));
+  $('scoreContext').textContent=state.keyword?'当前评分对应关键词：'+state.keyword:'全部视图：综合分取各命中关键词中的最高值';
+  $('pageLabel').textContent='第 '+state.page+' / '+pageCount+' 页 · 每页 '+state.size+' 篇';
+  $('firstPage').disabled=$('prevPage').disabled=state.page<=1;
+  $('nextPage').disabled=$('lastPage').disabled=state.page>=pageCount;
+  $('pageSelect').replaceChildren();for(let page=1;page<=pageCount;page++){const opt=create('option','',String(page)+' / '+pageCount);opt.value=String(page);$('pageSelect').append(opt);}$('pageSelect').value=String(state.page);$('pageSelect').disabled=filtered.length===0;
+  $('exportCsv').disabled=filtered.length===0;$('exportCsv').textContent='导出筛选结果 CSV'+(filtered.length?' ('+fmt(filtered.length)+')':'');
+  for(const button of $('keywords').querySelectorAll('button'))button.setAttribute('aria-pressed',String(button.dataset.keyword===state.keyword));
+  updateStatus();
+}
+function csvCell(value){let text=String(value??'');if(/^\s*[=+\-@]/.test(text))text="'"+text;return '"'+text.replace(/"/g,'""')+'"';}
+function makeCsv(){
+  const rows=[['文章标题','公众号','阅读数','发布时间','相关性','热度','时效','综合评分','命中关键词','原文链接','点赞数','分享数','在看数','评论数','当前关键词筛选']];
+  for(const article of filtered){const s=getScore(article);rows.push([article.title,article.author,article.clicksCount,article.publicTime,s.relevanceScore,s.popularityScore,s.recencyScore,s.totalScore,article.keywords.join('、'),article.url,article.likeCount,article.shareCount,article.watchCount,article.commentsCount,state.keyword||'全部（最高匹配分）']);}
+  return '\ufeff'+rows.map(row=>row.map(csvCell).join(',')).join('\r\n');
+}
+$('exportCsv').addEventListener('click',()=>{const blob=new Blob([makeCsv()],{type:'text/csv;charset=utf-8;'});const url=URL.createObjectURL(blob);const link=document.createElement('a');link.href=url;link.download='金融公众号监控_'+(state.keyword||'全部')+'_'+meta.startDate+'_'+meta.endDate+'.csv';document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);});
+$('searchTitle').addEventListener('input',event=>{state.search=event.target.value;state.page=1;render();});
+$('searchAuthor').addEventListener('input',event=>{state.author=event.target.value;state.page=1;render();});
+$('sortBy').addEventListener('change',event=>{state.sort=event.target.value;state.page=1;render();});
+$('pageSize').addEventListener('change',event=>{state.size=Number(event.target.value);state.page=1;render();});
+$('pageSelect').addEventListener('change',event=>{state.page=Number(event.target.value);render();});
+$('firstPage').addEventListener('click',()=>{state.page=1;render();});$('prevPage').addEventListener('click',()=>{state.page--;render();});$('nextPage').addEventListener('click',()=>{state.page++;render();});$('lastPage').addEventListener('click',()=>{state.page=pageCount;render();});
+$('reset').addEventListener('click',()=>{Object.assign(state,{keyword:'',search:'',author:'',sort:'score-desc',page:1,size:10});$('searchTitle').value='';$('searchAuthor').value='';$('sortBy').value='score-desc';$('pageSize').value='10';render();});
+function keywordButton(keyword,count){const button=create('button','keyword');button.type='button';button.dataset.keyword=keyword;button.setAttribute('aria-pressed',String(!keyword));button.append(create('span','keyword-name',keyword||'全部结果'),create('span','count',fmt(count)));button.addEventListener('click',()=>{state.keyword=keyword;state.page=1;render();});return button;}
+$('keywords').append(keywordButton('',allArticles.length));
+meta.keywords.forEach(keyword=>{$('keywords').append(keywordButton(keyword,queryInfo(keyword)?.count||0));});
+$('dateRange').textContent=meta.startDate.replaceAll('-','.')+' — '+meta.endDate.replaceAll('-','.');
+$('articleCount').textContent=fmt(allArticles.length);$('authorCount').textContent=fmt(meta.authors);$('keywordCount').textContent=String(meta.keywords.length);
+$('generatedAt').textContent='生成于 '+meta.generatedAt.slice(0,19).replace('T',' ')+' · 北京时间';
+meta.queries.forEach(q=>{const tr=create('tr');[q.keyword,fmt(q.reportedTotal),fmt(q.count),q.status!=='ok'?'查询失败':q.complete?'已取回全部分页':q.error||'部分结果未取回'].forEach(text=>tr.append(create('td','',text)));$('coverageRows').append(tr);});
+$('coverageNote').textContent='接口总条数为服务端报告值，可能与实际返回条数不同。报告按文章 ID / 原文链接去重；同一篇文章可命中多个关键词，各关键词数量不可直接相加。'+(meta.outsideDateCount?'已排除 '+fmt(meta.outsideDateCount)+' 条查询日期范围外的记录。':'');
+render();
+</script>
+</body>
+</html>
